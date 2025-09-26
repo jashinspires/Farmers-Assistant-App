@@ -1,18 +1,15 @@
 # 🌱 Farmers Assistant App
-
 **Revolutionizing Agriculture Through AI-Powered Mobile Technology**
 
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 
 ## 🚀 Vision Statement
-
 Empowering smallholder farmers worldwide with cutting-edge AI technology to optimize crop yields, prevent diseases, and promote sustainable farming practices through an intuitive mobile application.
 
 ## 🌍 Problem Statement
-
 **Critical Agricultural Challenges:**
 - 🏥 **Disease Detection**: 40% of global crop yield lost to plant diseases annually
 - 📊 **Resource Management**: Inefficient water and fertilizer usage leading to environmental degradation
@@ -40,80 +37,48 @@ Empowering smallholder farmers worldwide with cutting-edge AI technology to opti
 
 ## 🛠️ Technical Architecture
 
-### **Frontend**
+### Frontend
 - **Framework**: Flutter (Cross-platform mobile development)
 - **Language**: Dart
 - **UI/UX**: Material Design 3 with accessibility focus
 
-### **Backend & AI**
-- **Cloud Platform**: Firebase (Authentication, Database, Storage)
+### Backend & AI
+- **Database**: MongoDB (Scalable NoSQL database for flexible data storage)
+- **Backend Framework**: Node.js/Express.js with RESTful APIs
 - **AI/ML**: TensorFlow Lite, Google ML Kit
 - **APIs**: OpenWeatherMap, Agricultural Market APIs
 - **Real-time Data**: WebSocket connections for live updates
+- **Authentication**: JWT-based secure authentication
 
-### **Data Sources**
+### Data Sources
 - **Weather Data**: OpenWeatherMap API, local meteorological services
 - **Crop Prices**: Agricultural market APIs and government databases
 - **Disease Database**: Comprehensive plant pathology datasets
 - **Soil Data**: Government agricultural department APIs
 
-## 📅 10-Day Development Sprint
-
-### **Week 1: Foundation & Core Development**
-
-#### **Days 1-2: Project Setup & Architecture**
-- 🏗️ Flutter project initialization with clean architecture
-- 🔐 Firebase setup (Authentication, Firestore, Storage)
-- 📱 Core navigation structure and responsive design
-- 🧪 Unit testing framework implementation
-
-#### **Days 3-4: Disease Detection Engine**
-- 🤖 TensorFlow Lite model integration for plant disease recognition
-- 📸 Camera functionality with image preprocessing
-- 🔍 Disease identification algorithm implementation
-- 📊 Confidence scoring and result visualization
-
-#### **Days 5-6: Weather & Environmental Intelligence**
-- 🌤️ Weather API integration with location services
-- 📈 Historical weather data analysis
-- ⚠️ Weather alerts and farming recommendations
-- 🌱 Crop-specific weather impact assessment
-
-#### **Days 7-8: Smart Recommendations System**
-- 💡 AI-powered farming advice engine
-- 📋 Personalized crop management plans
-- 🌿 Sustainable farming practice suggestions
-- 📊 Progress tracking and analytics dashboard
-
-#### **Days 9-10: Testing, Optimization & Deployment**
-- 🧪 Comprehensive testing (unit, integration, UI)
-- ⚡ Performance optimization and offline capabilities
-- 🎨 UI/UX refinement and accessibility improvements
-- 🚀 Beta deployment and user feedback integration
-
 ## 🎯 Target Impact
 
-### **Immediate Benefits (3-6 months)**
-- ⬆️ **25% increase** in crop yield through early disease detection
-- 💧 **30% reduction** in water usage through smart irrigation
-- 📱 **10,000+ farmers** onboarded in pilot regions
+### Immediate Benefits (3-6 months)
+- ⬆️ 25% increase in crop yield through early disease detection
+- 💧 30% reduction in water usage through smart irrigation
+- 📱 10,000+ farmers onboarded in pilot regions
 
-### **Long-term Vision (1-2 years)**
-- 🌍 **1 million farmers** using the platform globally
-- 🌱 **50% adoption** of sustainable farming practices
-- 💰 **$2 billion** in prevented crop losses
-- 🏆 **Industry recognition** as leading AgTech solution
+### Long-term Vision (1-2 years)
+- 🌍 1 million farmers using the platform globally
+- 🌱 50% adoption of sustainable farming practices
+- 💰 $2 billion in prevented crop losses
+- 🏆 Industry recognition as leading AgTech solution
 
 ## 🚀 Innovation Highlights
 
-### **Cutting-Edge Features**
+### Cutting-Edge Features
 - 📱 **Offline-First Design**: Works without internet connectivity
 - 🗣️ **Voice Interface**: Voice commands in local languages
 - 🤝 **Community Platform**: Farmer-to-farmer knowledge sharing
 - 🎓 **Gamification**: Achievement system for sustainable practices
 - 📊 **Blockchain Integration**: Transparent supply chain tracking
 
-### **Accessibility & Inclusivity**
+### Accessibility & Inclusivity
 - 🌐 **Multi-language Support**: 15+ regional languages
 - ♿ **Accessibility**: Screen reader support, high contrast mode
 - 📶 **Low-bandwidth Optimization**: Works on 2G networks
@@ -121,8 +86,7 @@ Empowering smallholder farmers worldwide with cutting-edge AI technology to opti
 
 ## 👨‍💻 Personal Motivation
 
-### **Why This Project Matters to Me**
-
+### Why This Project Matters to Me
 As a passionate developer with roots in agricultural communities, I've witnessed firsthand the struggles farmers face due to lack of technological access. This project represents my commitment to leveraging cutting-edge technology for social impact.
 
 **My Unique Perspective:**
@@ -131,8 +95,7 @@ As a passionate developer with roots in agricultural communities, I've witnessed
 - 💡 **Innovation Mindset**: Passion for creating solutions that scale globally
 - 🤝 **Collaborative Spirit**: Experience working with diverse, cross-functional teams
 
-### **Alignment with Internship Goals**
-
+### Alignment with Professional Goals
 This project demonstrates:
 - **Technical Proficiency**: Advanced Flutter development with AI integration
 - **Problem-Solving Skills**: Addressing real-world challenges with innovative solutions
@@ -142,13 +105,13 @@ This project demonstrates:
 
 ## 📈 Success Metrics
 
-### **Technical KPIs**
+### Technical KPIs
 - ⚡ **App Performance**: < 3 second load times, 99.9% uptime
 - 🎯 **AI Accuracy**: > 95% disease detection accuracy
 - 📱 **User Experience**: 4.8+ app store rating
 - 🔄 **Engagement**: 80% monthly active user retention
 
-### **Business Impact**
+### Business Impact
 - 💰 **Revenue**: Freemium model with premium features
 - 🌱 **User Growth**: 50% month-over-month growth in user base
 - 🤝 **Partnerships**: Collaborations with agricultural organizations
@@ -156,7 +119,7 @@ This project demonstrates:
 
 ## 🔧 Getting Started
 
-### **Prerequisites**
+### Prerequisites
 ```bash
 # Flutter SDK
 flutter doctor
@@ -164,11 +127,11 @@ flutter doctor
 # Required dependencies
 flutter pub get
 
-# Firebase configuration
-flutter packages pub run build_runner build
+# MongoDB setup
+# Install MongoDB locally or use MongoDB Atlas
 ```
 
-### **Installation**
+### Installation
 ```bash
 # Clone the repository
 git clone https://github.com/jashinspires/Farmers-Assistant-App.git
@@ -179,15 +142,18 @@ cd Farmers-Assistant-App
 # Install dependencies
 flutter pub get
 
+# Configure environment variables
+cp .env.example .env
+# Edit .env with your API keys and database connection
+
 # Run the application
 flutter run
 ```
 
 ## 🤝 Contributing
-
 We welcome contributions from developers, agriculturalists, and domain experts!
 
-### **How to Contribute**
+### How to Contribute
 1. 🍴 Fork the repository
 2. 🌿 Create a feature branch (`git checkout -b feature/amazing-feature`)
 3. 💻 Commit your changes (`git commit -m 'Add amazing feature'`)
@@ -195,21 +161,18 @@ We welcome contributions from developers, agriculturalists, and domain experts!
 5. 🎯 Open a Pull Request
 
 ## 📄 License
-
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 📞 Contact
+Jash - Aspiring Software Engineer & Social Impact Advocate
 
-**Jash** - Aspiring Software Engineer & Social Impact Advocate
-- 📧 Email: [your-email@example.com]
-- 💼 LinkedIn: [Your LinkedIn Profile]
-- 🐦 Twitter: [@your-handle]
-- 🌐 Portfolio: [your-portfolio.com]
-
----
-
-**"Technology should serve humanity, especially those who need it most. This app is my contribution to creating a more food-secure and sustainable world."** 🌍
+- 📧 **Email**: [your-email@example.com](mailto:your-email@example.com)
+- 💼 **LinkedIn**: [Your LinkedIn Profile]
+- 🐦 **Twitter**: [@your-handle]
+- 🌐 **Portfolio**: [your-portfolio.com]
 
 ---
 
-*Built with ❤️ for farmers worldwide*
+*"Technology should serve humanity, especially those who need it most. This app is my contribution to creating a more food-secure and sustainable world."* 🌍
+
+**Built with ❤️ for farmers worldwide**
